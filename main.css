@@ -1,0 +1,42 @@
+.container {
+    width: 960px;
+    margin: 100px auto;
+}
+
+.video-holder {
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+
+video {
+    width: 1000px;
+    height: 600px;
+}
+
+.icons-holder i {
+    margin: 20px;
+    color: #fff;
+    opacity: 0;
+}
+
+i {
+    font-size: 4rem;
+    transition: all .6s;
+}
+
+.icons-holder {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    
+}
+
+.video-holder:hover > .icons-holder i {
+    opacity: 1; 
+}
+
+
+
+
